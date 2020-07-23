@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="https://reveal.clearbit.com/v1/companies/reveal?variable=reveal&authorization=pk_b8e7e185aa88b70c74eb2d486cb2ecac"></script>
+  </head>
+
+  <body>
+    <h1 id="title">Loading...</h1>
+    <h1>From Reveal.js</h1>
+
+    <script type="text/javascript">
+      var company = window.reveal && window.reveal.company;
+      var name = company && company.name;
+
+      document.getElementById("title").innerText = "Hello " + name;
+    </script>
+  </body>
+</html>
